@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+    align-items: center;
+  
+  }
+
+body {
+  overflow-x: hidden; 
+  overflow-y: auto;   
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  
+}
+
+body.light-mode {
+  background-color: #ffffff; 
+  color: #333333; 
+}
+body.dark-mode {
+  background-color: #121212; /* Darker background for better contrast */
+  color: #e0e0e0; /* Light text color for readability */
+}
+
+body.dark-mode .nav {
+  background-color: #1f1f1f; /* Darker nav background */
+}
+
+body.dark-mode .nav__logo,
+body.dark-mode .nav__toggle,
+body.dark-mode .nav__link {
+  color: #e0e0e0; /* Light color for nav items */
+}
+
+body.dark-mode .nav__link:hover {
+  color: #ffffff; /* Highlight on hover */
+}
+
+body.dark-mode .text {
+  color: #a0c4ff; /* Light blue for emphasis */
+}
+
+body.dark-mode .about-us h1,
+body.dark-mode .donation h2,
+body.dark-mode .services h2 {
+  color: #ffffff; /* Ensure headings are visible */
+}
+
+body.dark-mode .about-us p,
+body.dark-mode .donation p {
+  color: #dcdcdc; /* Light color for paragraph text */
+}
+
+body.dark-mode .footer {
+  background-color: #1f1f1f; /* Dark footer background */
+  color: #e0e0e0; /* Light footer text */
+}
+
+body.dark-mode .footer nav a {
+  color: #e0e0e0; /* Light color for footer links */
+}
+
+body.dark-mode .footer nav a:hover {
+  color: #ffffff; /* Highlight on hover */
+}
+
+body.dark-mode .active-link {
+  color: #ffffff; /* Active link color */
+}
+
+body.dark-mode .overlay-content {
+  background: rgba(0, 0, 0, 0.7); /* Slightly darker overlay */
+  color: #ffffff; /* White text for overlay */
+}
+
+body.dark-mode .explore-button {
+  background-color: #4c9baf; /* Keep button color but ensure it contrasts */
+}
+
+body.dark-mode .explore-button:hover {
+  background-color: #45a049; /* Keep hover color */
+}
+
+body.dark-mode .card {
+  background-color: #222222; /* Darker card background */
+  border: 2px solid #444444; /* Lighter border for visibility */
+  color: #e0e0e0; /* Light text color */
+}
+body.dark-mode button {
+  background-color: #333333; /* Button background in dark mode */
+  color: #ffffff; /* Button text color */
+}
+
+body.dark-mode .wrapper .icon {
+  background: #444444; /* Darker icon background */
+}
+
+body.dark-mode .wrapper .tooltip {
+  background: #333333; /* Darker tooltip background */
+  color: #ffffff; /* White text in tooltip */
+}
+
+/* Adjustments for cards in dark mode */
+body.dark-mode .card-details {
+  color: #e0e0e0; /* Light text in card details */
+}
+
+body.dark-mode .nav__logo,
+body.dark-mode .nav__toggle,
+body.dark-mode .nav__link,
+body.dark-mode .explore-text,
+body.dark-mode .about-us p,
+body.dark-mode .donation p,
+body.dark-mode .cont {
+  color: #e0e0e0; 
+}
+
+body.dark-mode .text {
+  color: #a0c4ff; 
+}
+
+body.dark-mode .active-link {
+  color: #3b3418; 
+}
+
+body.dark-mode .footer {
+  color: #060303; 
+}
+
+body.dark-mode .footer nav a {
+  color: #e0e0e0; 
+}
+
+body.dark-mode .footer nav a:hover {
+  color: #8f8e8a; 
+}
+
+.nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #000000;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: #bebebe;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+
+.nav__toggle {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav__menu {
+  position: relative;
+}
+
+.nav__oculto {
+  display: none;
+}
+.theme-toggle {
+  display: flex;
+  gap: 10px; 
+  margin-right: 20px; 
+}
+
+.toggle-button {
+  background-color: transparent; 
+  border: none; 
+  font-size: 1.5rem; 
+  cursor: pointer; 
+  transition: transform 0.2s; 
+}
+
+.toggle-button:hover {
+  transform: scale(1.1); 
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+  
+  }
+  
+  
+  .text {
+    font-size: 24px; 
+    font-weight: bold; 
+    color:#202020(80, 80, 230, 0.744);
+    text-decoration: none; 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center; 
+    line-height: 190px; 
+  }
+  
+  .text:hover {
+    text-decoration: none; 
+  }
+  .nav__link {
+    color: #dcdcdc;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  
+  .nav__link:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav__toggle {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .nav__toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 2px 0;
+    transition: 0.3s;
+  }
+  
+  
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+#imageDescription1, #imageDescription2 {
+    margin-top: 10px; /* Space between image and description */
+}
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}

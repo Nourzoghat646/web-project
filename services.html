@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +10,48 @@
   </head>
 
   <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo">Pixel Wave</a>
+        <button class="nav__toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav__list" id="nav-list">
+          <div class="theme-toggle">
+            <button id="light-mode" class="toggle-button">
+                🌞
+            </button>
+            <button id="dark-mode" class="toggle-button">
+                🌜
+            </button>
+        </div>
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About us </a></li>
+          <li class="nav__item"><a href="services.html" class="nav__link">Shop</a></li>
+          <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="row">
     <div class="box">
-      <img id="sliderImage" src="img/graphic-design.png" alt="Slider Image" width="200">
-     
+      <img id="sliderImage1" src="img/graphic-design.png" alt="Slider Image1" width="200">
+      <p id="imageDescription">Description for graphic design image.</p>
       <br>
-      <button id="prevBtn">Previous</button>
-      <button id="nextBtn">Next</button>
+      <button id="prevBtn">/</button>
+      <button id="nextBtn">/</button>
   </div> 
+    </div>
+  <div class="row">
+    <div class="box">
+        <img id="sliderImage2" src="img/world-wide-web.png" alt="Slider Image 2" width="200">
+        <p id="imageDescription2">Description for calendar check image.</p>
+        <br>
+        <button id="prevBtn">/</button>
+        <button id="nextBtn">/</button>
+    </div>
+</div>
   <script src="ser.js"></script>
 </body>
 </html>
