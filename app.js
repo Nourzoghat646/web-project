@@ -1,6 +1,6 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
+let sign_in_btn = document.querySelector("#sign-in-btn");
+let sign_up_btn = document.querySelector("#sign-up-btn");
+let container = document.querySelector(".container");
 
 sign_up_btn.addEventListener("click", () => {
   container.classList.add("sign-up-mode");
@@ -8,4 +8,8 @@ sign_up_btn.addEventListener("click", () => {
 
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
+});
+document.getElementById('nav-toggle').addEventListener('click', function() {
+  let navList = document.getElementById('nav-list');
+  navList.classList.toggle('show'); 
 });

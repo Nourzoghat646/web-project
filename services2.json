@@ -1,0 +1,63 @@
+{
+    "categories": [
+      {
+        "title": "Web Design",
+        "image": "img/web-designer.svg",
+        "description": "Web development in digital marketing: Building websites for effective online presence and engagement"
+      },
+      {
+        "title": "Graphic Design",
+        "image": "img/artist.svg",
+        "description": "Graphic design in a digital marketing agency: Crafting visuals that captivate and drive online engagement."
+      },
+      {
+        "title": "Content Writing",
+        "image": "img/content-creator.svg",
+        "description": "Content writing in a digital marketing agency: Crafting words for impactful brand storytelling and audience connection."
+      }
+      
+    ],
+    "mission": {
+      "text": "In the digital universe, our agency soars like astronauts, crafting stellar campaigns that defy gravity and elevate brands to new heights."
+    },
+    "secondCategories": [
+      {
+        "title": "Photography",
+        "image": "img/vintage-camera.svg",
+        "description": "Photography in digital marketing: Capturing brand stories in a single frame for a lasting impact"
+      },
+      {
+        "title": "Event Planning",
+        "image": "img/businessman-giving-presentation.svg",
+        "description": "Event planning in digital marketing: Crafting memorable experiences that connect brands with their audience seamlessly"
+      },
+      {
+        "title": "Consultancy Work",
+        "image": "img/group-of-happy-business-people.svg",
+        "description": "Digital marketing consultancy: Guiding businesses with strategic insights for online success in the dynamic digital landscape."
+      }
+      
+    ],
+    "secondMission": {
+      "text": "Digital marketing is the astronaut's suit for brands, propelling them through the online galaxy, reaching new audiences and discovering limitless possibilities"
+    },
+    "thirdCategories": [
+      {
+        "title": "SEO",
+        "image": "img/cloud-network.svg",
+        "description": "SEO in digital marketing: Elevating brands through strategic online visibility for seamless connections with target audiences."
+      },
+      {
+        "title": "Marketing Strategy",
+        "image": "img/employee-giving-presentation.svg",
+        "description": "Digital marketing strategy: Tailored plans that resonate, engage, and propel brands toward success in the online realm."
+      },
+      {
+        "title": "Social Media Management",
+        "image": "img/facebook-advertisement-tutorial.svg",
+        "description": "Social media management in digital marketing: Crafting connections, building brand presence, and sparking conversations in the online realm"
+      }
+     
+    ]
+  }
+  

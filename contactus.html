@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+          <a href="index.html" class="nav__logo">Pixel Wave</a>
+          <button class="nav__toggle" id="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul class="nav__list" id="nav-list">
+            <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="aboutus.html" class="nav__link">About us </a></li>
+            <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__item"><a href="contactus.html" class="nav__link">Contactus</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Phone:</strong> 52452789/85126472</p>
+        <p><strong>Email:</strong> PWAGENCY@gmail.com</p>
+        <p><strong>Location:</strong> Jiyeh, Lebanon</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="form-section">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53127.99186497346!2d35.384100834399646!3d33.670128399126334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ee30fb2de1161%3A0x4f9da5ad31d4d342!2sJiyeh%2C%20Lebanon!5e0!3m2!1sen!2skw!4v1732665338437!5m2!1sen!2skw"
+             width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <script src="contactus.js"></script>
+</body>
+</html>

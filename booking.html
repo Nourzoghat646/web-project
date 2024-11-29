@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Booking Page</title>
+    <style>
+        .booking-form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .booking-form h2 {
+            text-align: center;
+        }
+        .booking-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .booking-form input,
+        .booking-form select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .booking-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(199, 124, 27);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="booking-form">
+    <h2>Book Your Service</h2>
+    <form id="bookingForm">
+        <label for="service">Service</label>
+        <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="Web Design">Web Design</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Content Writing">Content Writing</option>
+            <option value="Photography">Photography</option>
+            <option value="Event Planning">Event Planning</option>
+            <option value="Consultancy Work">Consultancy Work</option>
+            <option value="SEO">SEO</option>
+            <option value="Marketing Strategy">Marketing Strategy</option>
+            <option value="Social Media Management">Social Media Management</option>
+        </select>
+
+        <label for="date">Select Date</label>
+        <input type="text" id="date" name="date" required>
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email " required>
+
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#date').datepicker();
+        const urlParams = new URLSearchParams(window.location.search);
+        const serviceName = urlParams.get('service');
+        if (serviceName) {
+            $('#service').val(serviceName);
+        }
+
+        $('#bookingForm').on('submit', function(event) {
+            event.preventDefault();
+            alert('Booking confirmed for ' + $('#service').val() + ' on ' + $('#date').val() + '.');
+            setTimeout(function() {
+                window.location.href = 'services.html';
+            }, 2000);
+        });
+    });
+</script>
+
+</body>
+</html>

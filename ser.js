@@ -1,38 +1,58 @@
-let images1 = ["img/calendar-check.png", 'img/graphic-design.png', 'img/meeting.png'];
-let descriptions1 = [
-    "Description for calendar check image.",
-    "Description for graphic design image.",
-    "Description for meeting image."
-];
+let navToggle = document.querySelector('#nav-toggle');
+let navList = document.querySelector('#nav-list');
 
-let images2 = ["img/video-camera.png", 'img/web-design.png', 'img/world-wide-web.png'];
-let descriptions2 = [
-    "Description for meeting image.",
-    "Description for calendar check image.",
-    "Description for graphic design image."
-];
+navToggle.addEventListener('click', () => {
+  navList.classList.toggle('show');
+});
+$(document).ready(function() {
+   
+    $('#btn1').on('click', function() {
+  
+      window.location.href = 'login.html';
+    });
+    $('.card-button').on('click', function(){
+        window.location.href = 'services.html'
+    });
+    $.getJSON('services2.json', function (data) {
+     
+      displayCategories(data.categories, '#services-container');
 
-let currentIndex1 = 0;
-let currentIndex2 = 0;
+   
+      $('#mission-image').attr('src', data.mission.image);
 
-function updateImage1() {
-    document.getElementById('sliderImage1').src = images1[currentIndex1];
-    document.getElementById('imageDescription1').innerText = descriptions1[currentIndex1];
-}
+    
+      displayCategories(data.secondCategories, '#second-services-container');
 
-function updateImage2() {
-    document.getElementById('sliderImage2').src = images2[currentIndex2];
-    document.getElementById('imageDescription2').innerText = descriptions2[currentIndex2];
-}
+   
+      $('#second-mission-image').attr('src', data.secondMission.image);
 
-// Automatic change for the first slider every 6 seconds
-setInterval(function() {
-    currentIndex1 = (currentIndex1 === images1.length - 1) ? 0 : currentIndex1 + 1;
-    updateImage1();
-}, 4000);
+      displayCategories(data.thirdCategories, '#third-services-container');
 
-// Automatic change for the second slider every 6 seconds
-setInterval(function() {
-    currentIndex2 = (currentIndex2 === images2.length - 1) ? 0 : currentIndex2 + 1;
-    updateImage2();
-}, 4000);
+    
+  });
+
+  function displayCategories(categories, containerId) {
+      var container = $(containerId);
+
+      $.each(categories, function (index, category) {
+          var card = $('<div class="card">' +
+              '<div class="card-inner">' +
+              '<div class="card-front" style="display: flex;">' +
+              '<img src="' + category.image + '" height="100px" width="200px">' +
+              '<p>' + category.title + '</p>' +
+              '</div>' +
+              '<div class="card-back">' +
+              '<p>' + category.description + '</p>' +
+              '</div>' +
+              '</div>' +
+              '<button class="booking-button" data-service="${category.title}">Book Now</button>' +
+              '</div>');
+
+          container.append(card);
+      });
+  }
+  $(document).on('click', '.booking-button', function() {
+    let serviceName = $(this).data('service');
+    window.location.href = 'booking.html?service=' + encodeURIComponent(serviceName);
+});
+});

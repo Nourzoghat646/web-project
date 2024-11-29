@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="vintage-camera" x="0" y="0" style="enable-background:new 0 0 1000 1000" version="1.1" viewBox="0 0 1000 1000">
+  <rect id="XMLID_5_" width="1000" height="1000" style="fill:#f4f4f4"></rect>
+  <ellipse id="XMLID_1_" cx="500" cy="660.658" rx="325" ry="29.046" style="fill:#493b3b"></ellipse>
+  <path id="XMLID_89_" d="M403.491,384.648h-84v-14c0-8.837,7.163-16,16-16h52c8.837,0,16,7.163,16,16V384.648z
+	" style="fill:#c1a7a7"></path>
+  <path id="XMLID_2_" d="
+	M403.491,384.648h-84v-14c0-8.837,7.163-16,16-16h52c8.837,0,16,7.163,16,16V384.648z" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+  <g id="XMLID_190_">
+    <g id="XMLID_217_">
+      <line id="XMLID_218_" x1="398.849" x2="398.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_214_">
+      <line id="XMLID_215_" x1="389.849" x2="389.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_211_">
+      <line id="XMLID_212_" x1="380.849" x2="380.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_208_">
+      <line id="XMLID_209_" x1="371.849" x2="371.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_205_">
+      <line id="XMLID_206_" x1="362.849" x2="362.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_202_">
+      <line id="XMLID_203_" x1="353.849" x2="353.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_199_">
+      <line id="XMLID_200_" x1="344.849" x2="344.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_196_">
+      <line id="XMLID_197_" x1="335.849" x2="335.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+    <g id="XMLID_193_">
+      <line id="XMLID_194_" x1="326.849" x2="326.849" y1="357.881" y2="384.635" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></line>
+    </g>
+  </g>
+  <path id="XMLID_53_" d="M744.889,348.658H422.86c-8.875,0-17.146,4.268-22.497,11.349
+	c-11.315,14.972-29.26,24.651-49.474,24.651h-118v252c0,13.255,10.745,24,24,24h488c13.255,0,24-10.745,24-24v-264
+	C768.889,359.403,758.144,348.658,744.889,348.658z" style="fill:#e2a86d"></path>
+  <rect id="XMLID_80_" width="28.966" height="204.111" x="232.889" y="428.41" style="fill:#d6975f"></rect>
+  <rect id="XMLID_111_" width="28.966" height="204.111" x="739.882" y="428.41" style="fill:#d6975f"></rect>
+  <defs>
+    <filter id="Adobe_OpacityMaskFilter" width="622.469" height="343.162" x="188.765" y="373.648" filterUnits="userSpaceOnUse">
+      <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"></feColorMatrix>
+    </filter>
+  </defs>
+  <mask id="XMLID_6_" width="622.469" height="343.162" x="188.765" y="373.648" maskUnits="userSpaceOnUse">
+    <g id="XMLID_30_" style="filter:url(#Adobe_OpacityMaskFilter)">
+      <rect id="XMLID_33_" width="536" height="204.359" x="232.889" y="428.161" style="fill:#e2a86d"></rect>
+    </g>
+  </mask>
+  <g id="XMLID_69_" style="mask:url(#XMLID_6_)">
+    <g id="XMLID_336_">
+      <g id="XMLID_358_">
+        <path id="XMLID_359_" d="
+				M280.261,407.826c55.988,33.084,81.779,97.55,64.497,152.992c-20.429,65.536-90.449,84.473-94.495,85.496" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      </g>
+      <path id="XMLID_357_" d="
+			M300.161,575.813c-24.002,25.979-68.309,36.433-108.395,16.504" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_356_" d="
+			M205.265,436.324c60.702,5.08,105.966,40.689,112.494,82.496c0.338,2.167,3.061,21.587-5.361,41.728" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_355_" d="
+			M194.765,496.321c24.039-17.01,46.441-18.83,67.248-8.659c14.648,7.16,32.673,25.032,30.648,38.658
+			c-3.562,23.968-44.632,52.197-79.896,50.997" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_354_" d="
+			M250.262,498.436c2.783,2.194,17.999,10.795,14.595,29.726c-1.111,6.177-16.843,28.07-43.094,23.657" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_353_" d="
+			M206.765,521.82c13.735-10.148,34.396-19.658,43.498-4.383" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_352_" d="
+			M206.765,631.314c9.808,0.771,66.865,4.372,103.495-35.998c9.539-10.513,15.59-21.69,19.499-31.498" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_351_" d="
+			M337.258,407.826c7.134,16.724,25.747,53.176,64.497,70.496c58.41,26.108,140.304-1.211,191.99-73.496" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_350_" d="
+			M385.256,409.326c0.706,5.369,3.617,22.199,17.999,35.998c19.376,18.59,44.107,16.84,47.998,16.499" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_349_" d="
+			M397.102,594.257c-14-9.085-35.036-23.851-35.036-66.096c0-13.873,4.333-21.718,7.594-23.487
+			c11.5-6.238,48.269,35.054,95.091,47.144c36.373,9.392,96.856-13.189,182.576-85.657" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_348_" d="
+			M676.241,415.325c-31.362,4.006-93.862,17.108-133.493,67.497c-2.157,2.742-25.976,33.34-19.499,40.498
+			c4.272,4.722,36.925-46.245,98.555-68.922c14.87-5.471,27.883-8.025,36.857-9.333" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_347_" d="
+			M301.26,674.812c7.264-35.217,29.411-58.99,52.497-59.997c0.817-0.036,20.026-0.608,28.499,11.999
+			c10.229,15.221,1.7,45.021-26.999,68.997" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_346_" d="
+			M350.067,597.78c27.274-2.785,51.685,11.033,64.339,32.882c16.069,27.745,13.445,61.165-15.652,83.148" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_345_" d="
+			M674.147,473.309c-4.314,4.896-26.007,21.304-34.486,26.089c-44.242,24.964-50.265,11.581-94,61.15
+			c-23.567,26.711-44.102,91.911-79.409,136.763" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_344_" d="
+			M721.625,376.648c-0.824,26.177-14.662,54.923-35.165,81.701" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_343_" d="
+			M796.235,437.824c-9.338,1.339-63.935,10.068-94.495,58.497c-3.853,6.107-16.909,27.335-17.999,55.497
+			c-1.887,48.736,32.877,97.006,86.996,124.494" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_342_" d="
+			M724.027,583.855c8.78,31.059,40.528,56.432,79.708,65.458" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_341_" d="
+			M797.735,494.821c-32.24,6.047-65.457,26.524-73.408,53.34c-1.701,5.736-2.576,11.42-2.703,17" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_340_" d="
+			M569.747,697.311c12.526-71.868,52.602-107.42,74.248-121.579c22.167-14.5,46.226-8.476,24.747,31.584
+			c-15.205,28.358,0.885,68.953-32.998,94.495" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_339_" d="
+			M808.235,526.32c-37.248,5.536-58.838,25.496-56.997,38.998c1.512,11.091,19.198,20.495,40.498,23.999" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_338_" d="
+			M652.242,548.819c4.448-17.399,15.919-52.487,46.498-85.496c33.958-36.656,72.687-50.462,89.995-55.497" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+      <path id="XMLID_337_" d="
+			M624.661,636.398c-1.869-17.958,5.73-31.75,15.333-34c1.698-0.398,12.248-1.333,12.248,12.404" style="fill:none;stroke:#cc894c;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+    </g>
+  </g>
+  <g id="XMLID_120_">
+    <path id="XMLID_117_" d="M390.082,615.893l50.314-22.216l-19.388-43.91l-50.314,22.216
+		c-12.125,5.354-17.615,19.524-12.261,31.649l0,0C363.787,615.757,377.957,621.247,390.082,615.893z" style="fill:#e5d6d6"></path>
+    <path id="XMLID_106_" d="
+		M390.082,615.893l50.314-22.216l-19.388-43.91l-50.314,22.216c-12.125,5.354-17.615,19.524-12.261,31.649l0,0
+		C363.787,615.757,377.957,621.247,390.082,615.893z" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+    <circle id="XMLID_119_" cx="380.449" cy="593.911" r="14.418" style="fill:#efe6e6"></circle>
+    <circle id="XMLID_110_" cx="380.449" cy="593.911" r="14.418" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  </g>
+  <path id="XMLID_55_" d="M232.889,632.521v4.137c0,13.255,10.745,24,24,24h488c13.255,0,24-10.745,24-24
+	v-4.137H232.889z" style="fill:#e5d6d6"></path>
+  <path id="XMLID_147_" d="
+	M500.889,431.315c-62.674,0-113.482,50.971-113.482,113.846c0,8.015,0.83,15.834,2.401,23.381l-19.114,8.44
+	c-12.125,5.354-17.615,19.524-12.261,31.649v0c5.354,12.125,19.524,17.615,31.649,12.261l19.232-8.492
+	c20.65,28.256,53.973,46.607,91.574,46.607c62.674,0,113.482-50.971,113.482-113.846
+	C614.37,482.286,563.563,431.315,500.889,431.315z" style="opacity:.2;fill:#2d2d2d;stroke:#2d2d2d;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+  <path id="XMLID_153_" d="M744.889,660.658h-5.007v-28.137h29.007v4.137
+	C768.889,649.913,758.144,660.658,744.889,660.658z" style="fill:#dbc8c8"></path>
+  <path id="XMLID_133_" d="M256.889,660.658h4.966v-28.137h-28.966v4.137
+	C232.889,649.913,243.634,660.658,256.889,660.658z" style="fill:#dbc8c8"></path>
+  <path id="XMLID_54_" d="M744.889,348.41H422.912c-8.904,0-17.199,4.295-22.546,11.416
+	c-11.315,15.068-29.261,24.809-49.477,24.809h-118v43.775h536v-55.85C768.889,359.222,758.144,348.41,744.889,348.41z" style="fill:#e5d6d6"></path>
+  <rect id="XMLID_4_" width="28.966" height="42.804" x="232.889" y="385.606" style="fill:#dbc8c8"></rect>
+  <path id="XMLID_166_" d="M600.102,412.612H265.141c-1.815,0-3.286-1.471-3.286-3.286l0,0
+	c0-1.815,1.471-3.286,3.286-3.286h334.961c1.815,0,3.286,1.471,3.286,3.286l0,0C603.389,411.141,601.917,412.612,600.102,412.612z" style="fill:#c1a7a7"></path>
+  <path id="XMLID_142_" d="M744.848,348.41h-4.966v80h28.966v-56
+	C768.848,359.155,758.103,348.41,744.848,348.41z" style="fill:#dbc8c8"></path>
+  <ellipse id="XMLID_22_" cx="500.889" cy="528.161" rx="113.482" ry="113.846" style="fill:#e5d6d6"></ellipse>
+  <circle id="XMLID_90_" cx="500.889" cy="528.162" r="91" style="fill:#845b5b"></circle>
+  <path id="XMLID_126_" d="M500.889,457.161c46.798,0,85.453,35.51,90.448,81c0.361-3.285,0.552-6.62,0.552-10
+	c0-50.178-40.822-91-91-91s-91,40.822-91,91c0,3.38,0.191,6.715,0.552,10C415.436,492.672,454.09,457.161,500.889,457.161z" style="fill:#704848"></path>
+  <path id="XMLID_52_" d="
+	M744.889,348.658H422.86c-8.875,0-17.146,4.268-22.497,11.349c-11.315,14.972-29.26,24.651-49.474,24.651h-118v252
+	c0,13.255,10.745,24,24,24h488c13.255,0,24-10.745,24-24v-264C768.889,359.403,758.144,348.658,744.889,348.658z" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+  <circle id="XMLID_24_" cx="500.889" cy="528.162" r="102.5" style="fill:none;stroke:#493b3b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <circle id="XMLID_25_" cx="500.889" cy="528.162" r="91" style="fill:none;stroke:#493b3b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <circle id="XMLID_82_" cx="500.889" cy="528.162" r="62" style="fill:#b57f7f"></circle>
+  <path id="XMLID_91_" d="M543.577,528.162c29.987,0,46.504,34.966,27.35,58.04
+	c-16.705,20.124-41.901,32.96-70.038,32.96c-28.137,0-53.333-12.836-70.038-32.96c-19.154-23.074-2.638-58.04,27.35-58.04H543.577z" style="opacity:.34;fill:#fff"></path>
+  <path id="XMLID_108_" d="M500.889,486.161c30.782,0,56.385,22.553,61.182,52
+	c0.531-3.257,0.818-6.595,0.818-10c0-34.187-27.813-62-62-62s-62,27.813-62,62c0,3.405,0.287,6.743,0.818,10
+	C444.503,508.714,470.107,486.161,500.889,486.161z" style="fill:#ad6d6d"></path>
+  <circle id="XMLID_27_" cx="500.889" cy="528.162" r="62" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <circle id="XMLID_84_" cx="500.889" cy="528.162" r="37" style="fill:#4c3535"></circle>
+  <circle id="XMLID_37_" cx="500.889" cy="528.162" r="37" style="fill:none;stroke:#493b3b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <circle id="XMLID_85_" cx="500.889" cy="528.162" r="23.487" style="fill:#3f2e2e"></circle>
+  <path id="XMLID_150_" d="M308.328,384.648h-52.333v-10c0-3.314,2.686-6,6-6h40.333c3.314,0,6,2.686,6,6
+	V384.648z" style="fill:#6a4949"></path>
+  <path id="XMLID_20_" d="
+	M308.328,384.648h-52.333v-10c0-3.314,2.686-6,6-6h40.333c3.314,0,6,2.686,6,6V384.648z" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+  <rect id="XMLID_29_" width="36" height="11.917" x="264.161" y="356.732" style="fill:none;stroke:#493b3b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></rect>
+  <rect id="XMLID_115_" width="36" height="11.917" x="264.161" y="356.732" style="fill:#493b3b"></rect>
+  <ellipse id="XMLID_79_" cx="500.889" cy="528.161" rx="113.482" ry="113.846" style="fill:none;stroke:#493b3b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></ellipse>
+  <path id="XMLID_98_" d="M500.889,504.674c-12.951,0-23.487,10.536-23.487,23.487
+	c0,0.063,0.004,0.125,0.005,0.188c3.12-2.567,7.71-4.015,13.755-3.53c6.092,0.488,7.179,2.418,14,4.411
+	c5.979,1.748,13.734,1.08,19.201-1.635C524.06,514.907,513.651,504.674,500.889,504.674z" style="opacity:.38;fill:#fff"></path>
+  <circle id="XMLID_26_" cx="500.889" cy="528.162" r="76" style="fill:none;stroke:#493b3b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <circle id="XMLID_86_" cx="500.889" cy="528.162" r="91" style="fill:none;stroke:#493b3b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></circle>
+  <path id="XMLID_114_" d="M714.39,420.398h-85.749c-6.501,0-11.771-5.27-11.771-11.771v-34.167
+	c0-6.501,5.27-11.771,11.771-11.771h85.749c6.501,0,11.771,5.27,11.771,11.771v34.167
+	C726.161,415.128,720.891,420.398,714.39,420.398z" style="fill:#443636"></path>
+  <path id="XMLID_151_" d="
+	M714.39,420.398h-85.749c-6.501,0-11.771-5.27-11.771-11.771v-34.167c0-6.501,5.27-11.771,11.771-11.771h85.749
+	c6.501,0,11.771,5.27,11.771,11.771v34.167C726.161,415.128,720.891,420.398,714.39,420.398z" style="fill:none;stroke:#493b3b;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"></path>
+  <path id="XMLID_149_" d="M706.886,414.44h-70.74c-5.509,0-9.975-4.466-9.975-9.975v-25.842
+	c0-5.509,4.466-9.975,9.975-9.975h70.74c5.509,0,9.975,4.466,9.975,9.975v25.842C716.86,409.974,712.395,414.44,706.886,414.44z" style="fill:#845b5b"></path>
+  <path id="XMLID_395_" d="M689.591,414.44l27.161-37.21c-0.679-4.848-4.831-8.582-9.866-8.582
+	h-3.174l-33.425,45.792H689.591z" style="opacity:.38;fill:#fff"></path>
+  <polygon id="XMLID_394_" points="662.998 414.44 696.422 368.648 690.525 368.648 657.1 414.44" style="opacity:.38;fill:#fff"></polygon>
+</svg>
