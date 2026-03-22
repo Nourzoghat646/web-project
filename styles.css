@@ -430,17 +430,27 @@ button:active {
 @media (max-width: 768px) {
   #about{
     margin-top: 100px;
-  max-width: 400px;
-  text-align: center;
-  margin: 0 auto;
-  align-items: center;
+    max-width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
   }
+  
+  .about-content {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
   .main-title, .agency-title {
       font-size: 2rem; 
   }
 
   .about-text {
       font-size: 1rem;
+      width: 100%;
+      padding: 15px;
+      margin: 20px 0;
   }
 
   .about-image {
@@ -458,16 +468,23 @@ button:active {
 }
 
 @media (max-width: 480px) {
-  #about{margin-top: 100px;
-    max-width: 80px;
+  #about{
+    margin-top: 100px;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: column;
     align-items: center;
-
+    padding: 15px;
   }
+  
+  .about-content {
+    width: 100%;
+    padding: 0;
+  }
+  
   .main-title, .agency-title {
       font-size: 1.5rem; 
       flex-wrap: wrap;
@@ -475,7 +492,11 @@ button:active {
   }
 
   .about-text {
-      font-size: 0.9rem; 
+      font-size: 0.9rem;
+      width: 100%;
+      padding: 15px 10px;
+      margin: 15px 0;
+      text-align: left;
   }
 
   .about-image {
