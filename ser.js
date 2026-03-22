@@ -1,4 +1,24 @@
 let navToggle = document.querySelector('#nav-toggle');
+
+// Video autoplay functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(video => {
+        video.play().catch(error => {
+            console.log('Autoplay prevented:', error);
+            // Fallback: Add play button hover effect
+            let projectCard = video.closest('.project-card');
+            if (projectCard) {
+                projectCard.addEventListener('mouseenter', function() {
+                    video.play();
+                });
+                projectCard.addEventListener('mouseleave', function() {
+                    video.pause();
+                });
+            }
+        });
+    });
+});
 let navList = document.querySelector('#nav-list');
 
 navToggle.addEventListener('click', () => {
