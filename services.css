@@ -9,15 +9,14 @@
 }
       
 
- body{  overflow-x: hidden; 
+ body{
+  overflow-x: hidden; 
   overflow-y: auto;   
-  font-family: Arial, sans-serif;
-  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column; 
-  
- 
-  min-height: 90vh; 
+  min-height: 100vh; 
   font-size: 16px;
 }
 
@@ -192,10 +191,13 @@ button:active {
   left: 0;
 }
 .card {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  min-height: 350px;
   perspective: 1000px;
   border: none;
+  margin: 15px;
 }
 
 .card-inner {
@@ -203,7 +205,7 @@ button:active {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 1.5s;
+  transition: transform 0.8s ease-in-out;
 }
 
 .card:hover .card-inner {
@@ -223,11 +225,14 @@ button:active {
   color: #000000;
   display: flex;
   align-items: center;
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 12px;
   justify-content: center;
-  font-size: x-large;
+  font-size: 1.5rem;
+  font-weight: 600;
   transform: rotateY(0deg);
+  padding: 20px;
+  text-align: center;
 }
 
 .card-back {
@@ -235,12 +240,14 @@ button:active {
   color: #ffffff;
   display: flex;
   align-items: center;
-  border: 5px solid rgb(242, 242, 242);
-  border-radius: 10px;
+  border: 3px solid rgb(199, 124, 27);
+  border-radius: 12px;
   justify-content: center;
-  font-size: large;
+  font-size: 1rem;
   transform: rotateY(180deg);
   text-align: justify;
+  padding: 20px;
+  line-height: 1.6;
 }
 
 .content-container {
@@ -249,6 +256,8 @@ button:active {
   justify-content: center;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
 }
 
 .content-text {
@@ -280,11 +289,13 @@ button:active {
   background-color: rgb(199, 124, 27); 
   display: flex;
   height: auto;
-   border-top: 3px solid rgb(0, 0, 0); 
-   flex-wrap: wrap;
+  min-height: 200px;
+  border-top: 3px solid rgb(0, 0, 0); 
+  flex-wrap: wrap;
   justify-content: center; 
   width: 100%;
   color: #0a0a0a;
+  padding: 30px 10px;
 }
 
 
@@ -306,18 +317,20 @@ button:active {
 .wrapper {
   display: inline-flex;
   list-style: none;
-  height: 120px;
+  height: auto;
   width: 100%;
-  padding-top: 40px;
-  font-family: "Poppins", sans-serif;
+  padding: 30px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .wrapper .icon {
   position: relative;
   background: #ffffff;
   border-radius: 50%;
-  margin: 10px;
+  margin: 5px;
   width: 50px;
   height: 50px;
   font-size: 18px;
@@ -325,9 +338,9 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s ease;
 }
 
 .wrapper .tooltip {
@@ -488,11 +501,9 @@ button:active {
   display: inline-flex; 
 }
 @media (max-width: 768px) {
-
   .nav__toggle {
     display: flex;  
   }
- 
   
   .nav__list {
     display: none; 
@@ -504,20 +515,59 @@ button:active {
     left: 0; 
     z-index: 10; 
   }
+  
   .nav__list.show {
     display: flex; 
   }
-   .footer {
-    background-color: rgb(199, 124, 27); 
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    width: 100%;
-    color: #0a0a0a;
-     border-top: 3px solid rgb(0, 0, 0); 
-    flex-direction: column; 
-  }
-
-
   
+  .content-container {
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 20px;
+  }
+  
+  .content-text {
+      font-size: 1.1rem; 
+      width: 90%; 
+      margin-top: 20px; 
+  }
+  
+  .card {
+    max-width: 280px;
+    min-height: 300px;
+  }
+  
+  .footer {
+    flex-direction: column; 
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-text {
+      font-size: 1rem; 
+      width: 95%; 
+      margin-top: 15px; 
+  }
+  
+  .card {
+    max-width: 250px;
+    min-height: 280px;
+    margin: 10px 5px;
+  }
+  
+  .card-front {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+  
+  .card-back {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+  
+  .wrapper {
+    padding: 20px 5px;
+    gap: 10px;
+  }
 }
