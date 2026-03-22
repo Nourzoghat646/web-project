@@ -8,11 +8,6 @@ function debounce(func, wait = 10) {
     };
   }
 
-// Check if device is mobile
-function isMobileDevice() {
-    return window.innerWidth <= 768;
-}
-
 let side1 = document.getElementById("side1");
 let side2 = document.getElementById("side2");
 
@@ -25,8 +20,8 @@ function updateVisibility() {
     
     let aboutUsPosition = aboutUsSection.getBoundingClientRect().top + window.scrollY;
 
-    // Only apply split effect on desktop devices
-    if (!isMobileDevice() && side1 && side2) {
+    // Apply split effect on all devices
+    if (side1 && side2) {
         side1.style.left = -scrollPosition + "px";
         side2.style.left = scrollPosition + "px";
     }

@@ -279,17 +279,6 @@ button:active {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 
-/* Disable split effect on mobile devices */
-@media (max-width: 768px) {
-  .videoSplit .side#side1 {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-
-  .videoSplit .side#side2 {
-    display: none;
-  }
-}
-
 .overlay-content {
   position: absolute;
   top: 50%;
