@@ -2,7 +2,7 @@
 function debounce(func, wait = 10) {
     let timeout;
     return function (...args) {
-        const context = this;
+        let context = this;
         clearTimeout(timeout);
         timeout = setTimeout(() => func.apply(context, args), wait);
     };
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   document.getElementById('nav-toggle').addEventListener('click', function() {
-    const navList = document.getElementById('nav-list');
+    let navList = document.getElementById('nav-list');
     navList.classList.toggle('show');
   });
 
