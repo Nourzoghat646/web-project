@@ -5,9 +5,43 @@
   box-sizing: border-box;
   scroll-behavior: smooth ;
   align-items: center;
- 
-
 }
+
+/* Bootstrap Color Customization */
+:root {
+  --bs-primary: #2C1810;      /* Your brown */
+  --bs-warning: #c77c1b;      /* Your gold (rgb(199, 124, 27)) */
+  --bs-light: #EDE4E0;        /* Your light background */
+  --bs-dark: #000000;         /* Your black */
+}
+
+/* Enhanced Card Hover Effects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Button Hover Effects */
+.btn-warning:hover {
+  background-color: #a85a14;
+  border-color: #a85a14;
+}
+
+/* Section Spacing with Bootstrap */
+section {
+  padding: 4rem 2rem;
+}
+
+h2 {
+  color: #2C1810;
+  font-weight: 700;
+}
+
+
 body {
   overflow-x: hidden; 
   overflow-y: auto;   
